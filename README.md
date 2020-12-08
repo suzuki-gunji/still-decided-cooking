@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 🍳アプリ名 
+still-decided-cooking
 
-Things you may want to cover:
+## 💬概要　
+- その日に作る料理が決まらなかった場合、ランダムに料理を表示して料理を決めることができる。
+- その際麺類やご飯類などの細かなジャンルを決めて、料理の種類を選択することができる。
 
-* Ruby version
+## 🌐URL
 
-* System dependencies
+## 利用方法
 
-* Configuration
+## 動作方法
 
-* Database creation
+## 目指した課題解決
+ご飯を作る際に、今日は何を作ればいいかと考える時間をなくしたい。
+夜ご飯何にする？と聞かれ、なんでもいいよ！となってしまう状況を避けたい。
 
-* Database initialization
+## 実装した機能
 
-* How to run the test suite
+##　データベース設計
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# cookingテーブル　
+| Column             | Type       | Options                        |
+| ------------------ | ---------- | ------------------------------ |
+| name               | string     | null: false                    |
