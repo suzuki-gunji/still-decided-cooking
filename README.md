@@ -21,7 +21,9 @@ still-decided-cooking
 
 ##　データベース設計
 
-# cookingテーブル　
+# cooksテーブル　
 | Column             | Type       | Options                        |
 | ------------------ | ---------- | ------------------------------ |
 | name               | string     | null: false                    |
+| recipe             | string     | null: false                    |
+| genre              | string     | null: false                    |

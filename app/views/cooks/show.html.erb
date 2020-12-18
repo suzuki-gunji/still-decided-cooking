@@ -1,0 +1,19 @@
+<div class = "cook-table">
+  <h1>今日の料理はこれにしましょう！！</h1>
+  <p class = "list">
+    <th class = "detail-cooks">料理名:</th>
+    <%= @cook.name %>
+  </p>  
+  <p class = "list">
+    <th class = "detail-cooks">料理のレシピ:</th>
+    <%= @cook.recipe %>
+  </p> 
+  <p class = "list">
+    <th class = "detail-cooks">料理のジャンル:</th>
+    <%= @cook.genre.genre %>
+  </p> 
+</div>  
+
+<%= link_to 'トップページに戻る', root_path, method: :get, class: "btn" %>
+
+<%= link_to '違うジャンルの料理にする',new_decide_path, method: :get, class: "btn" %>

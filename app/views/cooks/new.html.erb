@@ -1,0 +1,25 @@
+<%= form_with model: @cook, local: true do |f|%>
+  <div class = "main-cook">
+    <div class="field">
+      <%= f.label :name, "料理名" %><br />
+      <%= f.text_field :name %>
+    </div>
+
+    <div class="field">
+      <%= f.label :recipe, "レシピ" %><br />
+      <%= f.text_area :recipe, class: :form__text %>
+    </div>
+
+    <div class="field">
+      <%= f.collection_select(:genre_id, Genre.all, :id, :genre, {}, {class:"genre-select"}) %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit "保存する", class: :form__btn  %>
+    </div>
+    
+  </div> 
+  <div class = "top_btn"> 
+    <%= link_to 'トップページに戻る', root_path, method: :get, class: "form__btn" %>
+  </div>
+<% end %>

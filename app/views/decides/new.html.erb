@@ -1,0 +1,8 @@
+<%= form_with model: @decide, local: true do |f| %>
+  <div class = "cook-box">
+    <%= f.collection_select(:genre_id, Genre.all, :id, :genre, {}, {class:"genre-select"}) %>
+    <%= f.submit "今日の料理を見る", class: "btn" %>
+
+    <%= link_to 'トップページに戻る', root_path, method: :get, class: "btn" %>
+  </div>
+<% end %>
