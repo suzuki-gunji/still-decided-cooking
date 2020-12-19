@@ -11,7 +11,6 @@ class DecidesController < ApplicationController
     @decide = Decide.new(decide_params)
     if @decide.save
       @cook = Cook.find_by(genre_id: @decide.genre_id)
-      binding.pry
       if @cook.nil?
         @decide = Decide.new(decide_params)
         render :new
