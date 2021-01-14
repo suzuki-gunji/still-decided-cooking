@@ -1,6 +1,6 @@
 # README
 
-# 🍳アプリ名 
+## 🍳アプリ名 
 still-decided-cooking
 
 ## 💬概要　
