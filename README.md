@@ -18,6 +18,7 @@
 
 ## 🍖参考GIF
 - その日の料理が表示される様子
+
 ![demo](https://gyazo.com/824d2f2479e6822b129c0d7784706baf/raw)
 
 
