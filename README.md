@@ -19,7 +19,7 @@
 ## 🍖参考GIF
 - その日の料理が表示される様子
 
-![demo](https://gyazo.com/824d2f2479e6822b129c0d7784706baf/raw)
+![demo](https://gyazo.com/dd88c39d499fbcc02ae7231713ed4b2d/raw)
 
 
 ## 💡目指した課題解決
