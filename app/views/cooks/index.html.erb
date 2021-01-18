@@ -4,15 +4,15 @@
   <% @cooks.each do |cook| %>
     <div class = "cook-table">
       <p class = "list">
-        <th class = "detail-cooks">料理名:</th>
+        <th class = "detail-cooks">料理名 : </th>
         <%= cook.name %>
       </p>  
       <p class = "list">
-        <th class = "detail-cooks">料理のレシピ:</th>
+        <th class = "detail-cooks">料理のレシピ : </th>
         <%= cook.recipe %>
       </p> 
       <p class = "list">
-        <th class = "detail-cooks">料理のジャンル:</th>
+        <th class = "detail-cooks">料理のジャンル : </th>
         <%= cook.genre.genre %>
       </p> 
     </div>  
