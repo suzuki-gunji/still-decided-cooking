@@ -9,17 +9,14 @@ class DecidesController < ApplicationController
 
   def create
     @decide = Decide.new(decide_params)
-    if @decide.save
-      @cook = Cook.find_by(genre_id: @decide.genre_id)
-      if @cook.nil?
-        @decide = Decide.new(decide_params)
-        render :new
-      else  
-        @decide.update(cook_id: @cook.id)
-        redirect_to cook_path(@cook.id)
-      end
-    else 
+    @cooks = Cook.where(genre_id: @decide.genre_id)
+    if @cooks.empty?
       render :new 
+    else
+      @cook = @cooks.sample
+      @decide.save
+      @decide.update(cook_id: @cook.id)
+      redirect_to cook_path(@cook.id)
     end
   end 
 
