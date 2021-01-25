@@ -1,12 +1,11 @@
 .main-cook{
+  width:600px;
   margin: 0 auto;
 }
 .field{
-  width: 800px;
   padding: 10px 0 5px 25px;
   font-size: 20px;
   font-weight: bold;
-  margin: 20px;
 }
 
 .actions{
@@ -22,19 +21,6 @@
 .genre-select{
   font-size: 15px;
   font-weight: bold;
-}
-
-.form__btn{
-  width: 200px;
-  margin: 0 0 0 25px;
-  padding: 20px;
-  border: 1px solid black;
-  background-color: orange;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
-  transition: 0.2s ease;
-  text-align: center;
-  color: white;
-  font-size: 15px;
 }
 
 .top_btn{

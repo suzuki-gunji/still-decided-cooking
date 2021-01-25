@@ -5,7 +5,7 @@
   <div class = "main-cook">
     <div class="field">
       <%= f.label :name, "料理名" %><br />
-      <%= f.text_field :name, placeholder: "例：カレーライス" %>
+      <%= f.text_field :name, class: :form__name, placeholder: "例：カレーライス" %>
     </div>
 
     <div class="field">
@@ -18,11 +18,11 @@
     </div>
 
     <div class="actions">
-      <%= f.submit "保存する", class: :form__btn  %>
+      <%= f.submit "保存する", class: :btn  %>
     </div>
     
   </div> 
   <div class = "top_btn"> 
-    <%= link_to 'トップページに戻る', root_path, method: :get, class: "form__btn" %>
+    <%= link_to 'トップページに戻る', root_path, method: :get, class: "btn" %>
   </div>
 <% end %>
