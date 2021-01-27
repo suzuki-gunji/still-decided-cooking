@@ -16,6 +16,7 @@ div {
 
 body {
   color: #3b4043;
+  background-color: #f7f7f7;
 }
 
 li {
@@ -33,9 +34,9 @@ a {
 }
 
 .header{
-  background-color:orange;
+  padding-top: 10px;
   height: 180px;
-  padding: 10px;
+  text-align: center;
 }
 
 .header h1{
@@ -68,7 +69,7 @@ a {
 }
 
 .furima-icon {
-  width: 250px;
+  width: 480px;
 }
 
 
