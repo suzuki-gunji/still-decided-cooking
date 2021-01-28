@@ -1,6 +1,35 @@
 .cooks-info h1{
-  font-size: 50px;
-  margin: 15px 300px;
+  font-size: 40px;
+  margin: 30px 300px;
   font-style: italic;
+  padding-bottom:30px ;
+  border-bottom: black 1px solid;
 }
 
+.decide-cook{
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border: black 4px bold;
+}
+
+.cook-table + .cook-table {
+  border-top:none;
+}
+
+.cook-name{
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.cook-recipe{
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.cook-genre{
+  font-size: 40px;
+  font-weight: bold;
+
+}

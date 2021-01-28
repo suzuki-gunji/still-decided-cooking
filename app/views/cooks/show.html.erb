@@ -1,17 +1,18 @@
 <div class = "cooks-info">
   <h1>今日の料理はこれにしましょう！！</h1>
 </div>  
-<div class = "cook-table">
-  <p class = "list">
-    <th class = "detail-cooks">料理名:</th>
+
+<div class = "decide-cook">
+  <p class = "cook-name">
+    料理名 : 
     <%= @cook.name %>
   </p>  
-  <p class = "list">
-    <th class = "detail-cooks">料理のレシピ:</th>
+  <p class = "cook-recipe">
+    料理のレシピ : 
     <%= @cook.recipe %>
   </p> 
-  <p class = "list">
-    <th class = "detail-cooks">料理のジャンル:</th>
+  <p class = "cook-genre">
+    料理のジャンル : 
     <%= @cook.genre.genre %>
   </p> 
 </div>  
