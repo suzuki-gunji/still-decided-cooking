@@ -1,16 +1,19 @@
 .cooks-info h1{
+  text-align: center;
   font-size: 40px;
   margin: 30px 300px;
   font-style: italic;
-  padding-bottom:30px ;
+  padding-bottom: 30px;
   border-bottom: black 1px solid;
 }
 
 .decide-cook{
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
   margin-bottom: 50px;
   border: black 4px bold;
+  padding-bottom: 30px;
+  border-bottom: black 1px solid;
 }
 
 .cook-table + .cook-table {
