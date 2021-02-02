@@ -14,28 +14,28 @@
   </div>
 
   <div class = "cooks">
-    <p>登録されている料理一覧</p>
-    <div class = "cook-main">
-      <% if @cooks.present? %>
-        <% @cooks.each do |cook| %>
-          <div class = "cook-table">
-            <p class = "list">
-              <th class = "detail-cooks">料理名 : </th>
+    <% if @cooks.present? %>
+      <h1 class = "cook-title">登録されている料理一覧</h1> 
+
+      <% @cooks.each do |cook| %>
+        <div class = "decide-cook">
+          <div class = "cook-view">
+            <p class = "cook-name">料理名 : 
               <%= cook.name %>
-            </p>  
-            <p class = "list">
-              <th class = "detail-cooks">料理のレシピ : </th>
-              <%= cook.recipe %>
-            </p> 
-            <p class = "list">
-              <th class = "detail-cooks">料理のジャンル : </th>
+            </p>
+            <p>料理のジャンル : 
               <%= cook.genre.genre %>
-            </p> 
+            </p>
           </div>  
-        <% end %>  
-      <% else %> 
-        <h1 class = "cook-title">登録されている料理はありません</h1> 
-      <% end %> 
-    </div>   
+
+          <div class = "cook-recipe">
+            <p class = "cook-recipe">料理のレシピ : 
+              <%= cook.recipe %>
+            </p>
+          </div>  
+      <% end %>  
+    <% else %> 
+      <h1 class = "cook-title">登録されている料理はありません</h1> 
+    <% end %>  
   </div>  
 </div>  
