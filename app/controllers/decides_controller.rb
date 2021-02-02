@@ -1,6 +1,7 @@
 class DecidesController < ApplicationController
 
-  def index 
+  def index
+    @cooks = Cook.order("created_at DESC")
   end
   
   def new
