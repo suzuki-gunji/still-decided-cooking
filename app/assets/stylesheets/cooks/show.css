@@ -25,6 +25,7 @@
   font-size: 40px;
   font-weight: bold;
   padding-right: 50px;
+  color: rgb(255, 185, 55);
 }
 
 .cook-genre{
@@ -39,6 +40,6 @@
 }
 
 .cook-recipe p{
-  font-size: 20px;
   font-weight: bold;
+  font-size: 20px;
 }
