@@ -30,7 +30,8 @@
   padding-top: 30px;
 }
 
-.cook-info{
+.cooks{
+  padding: 10px;
   background-color: hotpink;
   width: 30%;
   text-align: center;

@@ -11,28 +11,34 @@
   width: 50%;
   margin: 0 auto;
   margin-bottom: 50px;
-  border: black 4px bold;
-  padding-bottom: 30px;
-  border-bottom: black 1px solid;
+  border: 1px solid gray;
 }
 
-.cook-table + .cook-table {
-  border-top:none;
+.cook-view{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid gray;
 }
 
 .cook-name{
-  font-size: 50px;
-  margin-bottom: 50px;
+  font-size: 40px;
   font-weight: bold;
-}
-.cook-recipe{
-  font-size: 30px;
-  margin-bottom: 50px;
-  font-weight: bold;
+  padding-right: 50px;
 }
 
 .cook-genre{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
+}
 
+.cook-recipe{
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.cook-recipe p{
+  font-size: 20px;
+  font-weight: bold;
 }

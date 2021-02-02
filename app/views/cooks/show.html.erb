@@ -3,19 +3,26 @@
 </div>  
 
 <div class = "decide-cook">
-  <p class = "cook-name">
-    料理名 : 
-    <%= @cook.name %>
-  </p>  
-  <p class = "cook-recipe">
-    料理のレシピ : 
-    <%= @cook.recipe %>
-  </p> 
-  <p class = "cook-genre">
-    料理のジャンル : 
-    <%= @cook.genre.genre %>
-  </p> 
-</div>  
+
+  <div class = "cook-view">
+    <p class = "cook-name">
+      料理名 : 
+      <%= @cook.name %>
+    </p>  
+    <p class = "cook-genre">
+      ジャンル : 
+      <%= @cook.genre.genre %>
+    </p> 
+  </div>  
+
+  <div class ="cook-recipe">
+    <p>
+      レシピ<br> 
+      <br>
+      <%= @cook.recipe %>
+    </p> 
+  </div>  
+</div>
 
 <%= link_to 'トップページに戻る', root_path, method: :get, class: "btn" %>
 
