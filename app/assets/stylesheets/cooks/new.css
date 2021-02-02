@@ -1,30 +1,40 @@
 .main-cook{
-  width:600px;
+  width:100%;
   margin: 0 auto;
+  text-align: center;
+  padding: 30px;
 }
 .field{
-  padding: 10px 0 5px 25px;
+  padding: 10px 0;
   font-size: 20px;
   font-weight: bold;
 }
 
-.actions{
-  margin: 0 auto;
-  margin-top:30px;
-  padding-left: 16px;
+.form__name{
+  padding: 5px;
+  width: 20%;
 }
 
-.form__text {
-  width: 80%;
+.form__recipe{
+  width: 50%;
+  margin: 10px 0;
+  padding: 5px;
 }
 
 .genre-select{
   font-size: 15px;
   font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.actions{
+  margin: 0 auto;
+  text-align: center;
 }
 
 .top_btn{
-  display: flex;
-  margin-left: 16px;
+  text-align: center;
   margin-top: 20px;
 }
