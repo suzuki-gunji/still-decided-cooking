@@ -30,11 +30,10 @@
   padding-top: 30px;
 }
 
-.cooks{
+.cooks-info{
   padding: 10px;
   background-color: hotpink;
   width: 30%;
-  text-align: center;
   font-weight: bold;
 }
 
@@ -42,15 +41,10 @@
   font-size: 30px;
 }
 
-.wrapper p{
+.today-cook p{
   font-size: 25px;
 }
 
-.genre-select{
-  height: 50px;
-  width: 200px;
-  background-color: lightgray;
-}
 .btn{
   display: block;
   width: 200px;
@@ -59,12 +53,32 @@
   padding: 15px;
 }
 
-.btn:hover {
+.btn:hover{
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 
-.decide-cook{
+.cook-detail{
   background-color: orange;
+
+  width: 60%;
 }
+
+.cook-name{
+  font-size: 15px;
+}
+
+.cook-genre{
+  font-size: 10px;
+}
+
+.cook-recipe{
+  height: 100px;
+}
+
+.cook-recipe p{
+  font-size: 6px;
+}
+
+
 

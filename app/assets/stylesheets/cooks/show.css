@@ -1,4 +1,4 @@
-.cooks-info h1{
+.propose-cook h1{
   text-align: center;
   font-size: 40px;
   margin: 30px 300px;
@@ -7,39 +7,40 @@
   border-bottom: black 1px solid;
 }
 
-.decide-cook{
+.decided-cook{
   width: 50%;
   margin: 0 auto;
   margin-bottom: 50px;
   border: 1px solid gray;
 }
 
-.cook-view{
+.decided-cook-view{
   display: flex;
   align-items: center;
   padding: 10px;
   border-bottom: 1px solid gray;
 }
 
-.cook-name{
+.decided-cook-name{
   font-size: 40px;
   font-weight: bold;
   padding-right: 50px;
-  color: rgb(255, 185, 55);
+  color: rgb(245, 166, 20);
 }
 
-.cook-genre{
+.decided-cook-genre{
   font-size: 23px;
   font-weight: bold;
+  color: rgb(131, 131, 131);
 }
 
-.cook-recipe{
+.decided-cook-recipe{
   height: 200px;
   padding: 20px;
   margin-bottom: 30px;
 }
 
-.cook-recipe p{
+.decided-cook-recipe p{
   font-weight: bold;
   font-size: 20px;
 }

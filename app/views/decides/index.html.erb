@@ -13,26 +13,29 @@
     <%= link_to '料理を追加する', new_cook_path, method: :get, class: "btn" %>
   </div>
 
-  <div class = "cooks">
+  <div class = "cooks-info">
     <% if @cooks.present? %>
       <h1 class = "cook-title">登録されている料理一覧</h1> 
 
       <% @cooks.each do |cook| %>
-        <div class = "decide-cook">
+        <div class = "cook-detail">
           <div class = "cook-view">
-            <p class = "cook-name">料理名 : 
+            <p class = "cook-name">料理名 <br> 
               <%= cook.name %>
             </p>
-            <p>料理のジャンル : 
+            <p class = "cook-genre">料理のジャンル <br>
               <%= cook.genre.genre %>
             </p>
           </div>  
-
           <div class = "cook-recipe">
-            <p class = "cook-recipe">料理のレシピ : 
+            <p>
+            レシピ 
+            <br>
+            <br> 
               <%= cook.recipe %>
             </p>
           </div>  
+        </div>  
       <% end %>  
     <% else %> 
       <h1 class = "cook-title">登録されている料理はありません</h1> 
