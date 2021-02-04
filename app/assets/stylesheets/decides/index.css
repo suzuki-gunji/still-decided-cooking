@@ -1,6 +1,6 @@
 .explain{
   height: 160px;
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
   background-color: rgb(196, 196, 196);
   margin: 0 250px;
@@ -8,12 +8,13 @@
 }
 
 .explain-title{
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  color: rgb(14, 12, 8);
+  font-weight: 900;
 }
 
 .explain p{
   font-size: 20px;
-  font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -42,6 +43,10 @@
   padding-top: 30px;
 }
 
+.today-cook p{
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .cooks-info{
   width: 30%;
   font-weight: bold;
@@ -65,13 +70,10 @@
   width: 100%;
   display: flex;
   position: relative;
+  border-left: none;
 }
 
-.cook-detail + .cook-detail{
-  border-top: none;
-}
-
-.cooks-info + .cook-detail{
+.cooks-info + .c{
   border-left: none;
 }
 
