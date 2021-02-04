@@ -23,27 +23,6 @@
   display: flex;
 }
 
-.today-cook{
-  width: 70%;
-  text-align: center;
-  padding-top: 30px;
-}
-
-.cooks-info{
-  padding: 10px;
-  width: 30%;
-  font-weight: bold;
-  background-color: rgb(207, 207, 207);
-}
-
-.cook-title{
-  font-size: 25px;
-}
-
-.today-cook p{
-  font-size: 25px;
-}
-
 .btn{
   display: block;
   width: 200px;
@@ -57,6 +36,29 @@
   cursor: pointer;
 }
 
+.today-cook{
+  width: 70%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.cooks-info{
+  width: 30%;
+  font-weight: bold;
+  border-top: 1px rgba(82, 62, 62, 0.911) solid;
+  border-left: 1px rgba(82, 62, 62, 0.911) solid;
+}
+
+.cook-title{
+  font-size: 22px;
+  color: rgba(82, 62, 62, 0.911);
+  background-color: rgb(231, 213, 189);
+}
+
+.today-cook p{
+  font-size: 25px;
+}
+
 .cook-detail{
   background-color: rgb(233, 198, 132);
   border: 1px black solid;
@@ -65,8 +67,12 @@
   position: relative;
 }
 
-.cook-name{
-  display: flex;
+.cook-detail + .cook-detail{
+  border-top: none;
+}
+
+.cooks-info + .cook-detail{
+  border-left: none;
 }
 
 .cook-name {
