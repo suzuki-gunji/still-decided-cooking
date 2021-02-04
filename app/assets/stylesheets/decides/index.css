@@ -15,8 +15,8 @@
 
 .explain p{
   font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
-}
+  font-family: serif;
+}  
 
 .wrapper{
   height:500px;
@@ -44,7 +44,7 @@
 }
 
 .today-cook p{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .cooks-info{
