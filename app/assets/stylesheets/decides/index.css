@@ -24,7 +24,6 @@
 }
 
 .today-cook{
-  background-color: green;
   width: 70%;
   text-align: center;
   padding-top: 30px;
@@ -32,13 +31,13 @@
 
 .cooks-info{
   padding: 10px;
-  background-color: hotpink;
   width: 30%;
   font-weight: bold;
+  background-color: rgb(207, 207, 207);
 }
 
 .cook-title{
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .today-cook p{
@@ -59,25 +58,29 @@
 }
 
 .cook-detail{
-  background-color: orange;
-
-  width: 60%;
+  background-color: rgb(233, 198, 132);
+  border: 1px black solid;
+  width: 100%;
+  display: flex;
+  position: relative;
 }
 
 .cook-name{
+  display: flex;
+}
+
+.cook-name {
   font-size: 15px;
+  padding: 5px;
+  width: 50%;
 }
 
 .cook-genre{
-  font-size: 10px;
-}
-
-.cook-recipe{
-  height: 100px;
-}
-
-.cook-recipe p{
-  font-size: 6px;
+  position: absolute;
+  margin-left: 10px;
+  top: 25%;
+  left: 50%;
+  font-size: 13px;
 }
 
 
