@@ -14,7 +14,7 @@
     </div>
 
     <div class="field">
-      <p>料理のジャンルを入力してください</p>
+      <p>料理のジャンル</p>
       <%= f.collection_select(:genre_id, Genre.all, :id, :genre, {}, {class:"genre-select"}) %>
     </div>
 
