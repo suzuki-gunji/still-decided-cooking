@@ -1,3 +1,7 @@
+<div class = "decide-info">
+  <h1>今日の料理を決めましょう！</h1>
+</div>
+
 <%= form_with model: @decide, local: true do |f| %>
   <div class = "cook-box">
     <%= f.collection_select(:genre_id, Genre.all, :id, :genre, {}, {class:"genre-select"}) %>
