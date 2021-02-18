@@ -42,17 +42,26 @@
 
 そう考えてこのアプリを制作している。
 
-## 📦データベース設計
+# 📦データベース設計
 
-# cooksテーブル　
-| Column             | Type       | Options                        |
-| ------------------ | ---------- | ------------------------------ |
-| name               | string     | null: false                    |
-| recipe             | string     | null: false                    |
-| genre              | string     | null: false                    |
+## cooksテーブル
+| Column             | Type       | Options                          |
+| ------------------ | ---------- | -------------------------------- |
+| name               | string     | null: false                      |
+| recipe             | string     | null: false                      |
+| genre              | string     | null: false                      |
+| user               | references | null: false, foreign_key: true   |
 
-# decidesテーブル　
-| Column             | Type       | Options                        |
-| ------------------ | ---------- | ------------------------------ |
-| genre_id           | integer    | null: false                    |
-| cook               | references | foreign_key: true              |
+## decidesテーブル
+| Column             | Type       | Options                          |
+| ------------------ | ---------- | -------------------------------- |
+| genre_id           | integer    | null: false                      |
+| cook               | references | null: false, foreign_key: true   |
+| user               | references | null: false, foreign_key: true   |
+
+## users テーブル
+| Column   | Type   | Options     |
+| -------- | ------ | ----------- |
+| name     | string | null: false |
+| email    | string | null: false |
+| password | string | null: false |
