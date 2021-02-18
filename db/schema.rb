@@ -13,8 +13,8 @@
 ActiveRecord::Schema.define(version: 2021_02_18_121350) do
 
   create_table "cooks", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
-    t.string "name", limit: 255, null: false
-    t.string "recipe", limit: 255, null: false
+    t.string "name", null: false
+    t.string "recipe", null: false
     t.integer "genre_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
