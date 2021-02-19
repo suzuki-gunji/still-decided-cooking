@@ -2,14 +2,14 @@
   height: 160px;
   padding: 10px 0;
   text-align: center;
-  background-color: rgba(196, 196, 196, 0.774);
+  background-color: #c4c4c4c5;
   margin: 100px 250px 10px 250px;
   border: 3px black solid;
 }
 
 .explain-title{
   padding-bottom: 10px;
-  color: rgb(14, 12, 8);
+  color: #0e0c08;
   font-weight: 900;
   font-size: 24px;
 }
@@ -34,12 +34,12 @@
 }
 
 .btn:hover{
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 6px 0 #00000033, 0 1px 8px 0 #0000001f;
   cursor: pointer;
 }
 
 .today-cook{
-  width: 70%;
+  width: 100%;
   text-align: center;
   padding-top: 30px;
 }
@@ -49,16 +49,16 @@
 }
 
 .cooks-info{
-  width: 30%;
+  width: 20%;
   font-weight: bold;
-  border-top: 1px rgba(82, 62, 62, 0.911) solid;
-  border-left: 1px rgba(82, 62, 62, 0.911) solid;
+  border-top: 1px #523e3ee8 solid;
+  border-left: 1px #523e3ee8 solid;
 }
 
 .cook-title{
-  font-size: 25px;
-  color: rgba(82, 62, 62, 0.911);
-  background-color: rgb(231, 213, 189);
+  font-size: 13px;
+  color: #070501;
+  background-color: #e7d5bd;
 }
 
 .today-cook p{
@@ -101,4 +101,5 @@
   font-size: 50px;
   font-family: "游ゴシック", "YuGothic";
   font-weight: bold;
+  color: orange;
 }
