@@ -1,19 +1,9 @@
-.header{
-  padding-top: 10px;
-  height: 400px;
-  text-align: center;
-}
-
-.cook-icon {
-  width: 70%;
-}
-
 .explain{
   height: 160px;
   padding: 10px 0;
   text-align: center;
   background-color: rgba(196, 196, 196, 0.774);
-  margin: 0 250px;
+  margin: 100px 250px 10px 250px;
   border: 3px black solid;
 }
 
