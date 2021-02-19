@@ -92,5 +92,13 @@
   font-size: 13px;
 }
 
+.please-regist{
+  text-align: center;
+  margin-top: 100px;
+}
 
-
+.please-regist h1{
+  font-size: 50px;
+  font-family: "游ゴシック", "YuGothic";
+  font-weight: bold;
+}
