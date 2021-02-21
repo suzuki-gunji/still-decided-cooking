@@ -111,7 +111,7 @@ header.header .user_nav {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   text-align: center;
   border-top: 1px solid #D8D8D8;
   background-color: #fff;
