@@ -66,11 +66,11 @@
 }
 
 .cook-detail{
+  height: 30px;
   background-color: rgb(233, 198, 132);
   border: 1px black solid;
   width: 100%;
   display: flex;
-  position: relative;
   border-left: none;
 }
 
@@ -79,17 +79,18 @@
 }
 
 .cook-name {
-  font-size: 15px;
+  float: left;
+  font-size: 12px;
   padding: 5px;
   width: 50%;
 }
 
 .cook-genre{
-  position: absolute;
+  line-height: 30px;
   margin-left: 10px;
   top: 25%;
   left: 50%;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .please-regist{
