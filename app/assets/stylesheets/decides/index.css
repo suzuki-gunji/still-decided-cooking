@@ -5,7 +5,6 @@
 
 .main-container{
   padding-top: 70px;
-  display: flex;
   width: 100%;
 }
 
@@ -26,7 +25,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 40%;
 }
 
 .explain-container h1 {
@@ -37,6 +36,16 @@
   box-shadow: 0px 0px 0px 5px #ffc354;
   border: dashed 2px white;
   padding: 0.2em 0.5em;
+}
+
+.explain-container p{
+  font-size: 17px;
+  padding: 10px;
+}
+
+.cooks-btn{
+  text-align: center;
+  margin-top: 50px;
 }
 
 .right-container{
@@ -84,13 +93,28 @@
 }
 
 .please-regist{
-  text-align: center;
+  width: 100%;
   margin-top: 100px;
 }
 
-.please-regist h1{
+.please-regist h2{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
   font-size: 50px;
   font-family: "游ゴシック", "YuGothic";
   font-weight: bold;
   color: orange;
 }
+
+.please-regist p{
+  text-align: center;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.please-regist .box-newusr{
+  margin: 0 auto;
+  width: 50%;
+}
+
