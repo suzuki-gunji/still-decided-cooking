@@ -35,6 +35,10 @@
   margin-top: 50px;
 }
 
+.cooks-btn p{
+  font-size: 25px;
+}
+
 .right-container{
   width: 20%;
 }
