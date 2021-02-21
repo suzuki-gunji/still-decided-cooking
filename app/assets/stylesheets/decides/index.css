@@ -1,28 +1,12 @@
-.explain{
-  height: 160px;
-  padding: 10px 0;
-  text-align: center;
-  background-color: #c4c4c4c5;
-  margin: 100px 250px 10px 250px;
-  border: 3px black solid;
-}
-
-.explain-title{
-  padding-bottom: 10px;
-  color: #0e0c08;
-  font-weight: 900;
-  font-size: 24px;
-}
-
-.explain p{
-  font-size: 20px;
-  font-family: serif;
-}  
-
-.wrapper{
-  height:500px;
-  margin-top: 20px;
+.main-wrapper{
+  padding-top: 70px;
   display: flex;
+}
+
+.main-container{
+  padding-top: 70px;
+  display: flex;
+  width: 100%;
 }
 
 .btn{
@@ -38,18 +22,28 @@
   cursor: pointer;
 }
 
-.today-cook{
-  width: 100%;
+.explain-container{
   text-align: center;
-  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
-.today-cook p{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.explain-container h1 {
+  color: #444444;
+  font-family: "游ゴシック", "YuGothic";
+  font-weight: 600;
+  background: #ffc354;
+  box-shadow: 0px 0px 0px 5px #ffc354;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+}
+
+.right-container{
+  width: 20%;
 }
 
 .cooks-info{
-  width: 20%;
   font-weight: bold;
   border-top: 1px #523e3ee8 solid;
   border-left: 1px #523e3ee8 solid;
@@ -59,10 +53,6 @@
   font-size: 17px;
   color: #070501;
   background-color: #e7d5bd;
-}
-
-.today-cook p{
-  font-size: 25px;
 }
 
 .cook-detail{

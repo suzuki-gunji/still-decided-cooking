@@ -1,19 +1,24 @@
-<div class = "explain">
-  <h1 class = "explain-title">〜使い方〜</h1>
-  <p>1 : 料理を追加します</p>
-  <p>2 : 今日の料理を選択します</p>
-  <p>3 : 今日の料理が選択されたジャンルの中からランダムに表示されます</p>
-</div>
+<div class="main-wrapper">
+  <div class = "main-container">    
+    <% if user_signed_in? %>
+      <div class = "explain-container">
+        <h1>まだクッキンとは？</h1>
+        <p>今日の料理に困っているときはここ</p>
+        <%= link_to '今日の料理を見てみる', new_decide_path, method: :get, class: "btn" %>
+        <p>料理の幅を広くしたいときはここ</p>
+        <%= link_to '料理を追加する', new_cook_path, method: :get, class: "btn" %>
+      </div>
+      
+      <div class="">
+      </div>  
+    <% else %>
+      <div class="please-regist">
+        <h1>ユーザー登録をしてください</h1>  
+      </div>  
+    <% end %>
+  </div>
 
-<% if user_signed_in? %>
-  <div class = "wrapper">
-    <div class = "today-cook">
-      <p>今日の料理に困っているときはここ</p>
-      <%= link_to '今日の料理を見てみる', new_decide_path, method: :get, class: "btn" %>
-      <p>料理の幅を広くしたいときはここ</p>
-      <%= link_to '料理を追加する', new_cook_path, method: :get, class: "btn" %>
-    </div>
-
+  <div class="right-container">
     <div class = "cooks-info">
       <% if @cooks.present? %>
         <h1 class = "cook-title">登録されている料理一覧</h1> 
@@ -35,9 +40,5 @@
       <% end %>  
     </div>  
   </div>
-<% else %>
-  <div class="please-regist">
-    <h1>ユーザー登録をしてください</h1>  
-  </div>  
-<% end %>  
+</div>  
 
