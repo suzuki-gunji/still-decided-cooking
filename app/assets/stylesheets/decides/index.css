@@ -8,19 +8,6 @@
   width: 100%;
 }
 
-.btn{
-  display: block;
-  width: 200px;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  padding: 15px;
-}
-
-.btn:hover{
-  box-shadow: 0 3px 6px 0 #00000033, 0 1px 8px 0 #0000001f;
-  cursor: pointer;
-}
-
 .explain-container{
   text-align: center;
   margin-left: auto;
