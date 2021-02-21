@@ -1,7 +1,7 @@
 .decide-info {
   text-align: center;
   padding: 25px 0;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .decide-info h1{
@@ -10,7 +10,7 @@
 }
 
 .cook-box {
-  height: 500px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
