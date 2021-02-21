@@ -23,7 +23,7 @@ class DecidesController < ApplicationController
 
   private
   def decide_params
-    params.require(:decide).permit(:genre_id, :cook_id)
+    params.require(:decide).permit(:genre_id, :cook_id, :user_id).merge(user_id: current_user.id)
   end
 end
 
