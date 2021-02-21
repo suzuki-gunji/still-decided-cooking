@@ -94,6 +94,15 @@ header.header .user_nav {
   font-family: "游ゴシック", "YuGothic";
 }
 
+.sub-title{
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+
+
 .btn {
   width: 200px;
   padding: 20px;
