@@ -16,7 +16,7 @@ div {
 
 body {
   color: #3b4043;
-  background-color: #f7f7f7;
+  background-color: #ffedc5;
 }
 
 li {
@@ -38,27 +38,39 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 200px;
   text-decoration: none;
   color: #FFF;
-  background:  #ffba39;
+  background-color: orange;
   border-radius: 10px;
   box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
   font-weight: bold;
-  border: solid 1px  #ffba39;
   margin-top: 10px;
   margin-bottom: 50px;
 }
 
+.btn {
+  width: 200px;
+  padding: 20px;
+  border: 2px solid orange;
+  background-color: orange;
+  transition: 0.4s ease;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
 .btn:hover{
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2), 0 1px 8px 0 rgba(7, 7, 7, 0.12);
   cursor: pointer;
+  background-color:  #ffba39;
 }
 
 
 header.header {
   padding: 10px;
   border-bottom: 1px solid #D8D8D8;
-  background-color: rgb(255, 216, 143, 0.55 );
+  background-color: rgba(255, 206, 101, 0.76);
   position: fixed;
   top: 0;
   left: 0;
@@ -70,20 +82,17 @@ header.header {
 header.header div.header__bar.row div.grid-6 a.post {
   padding: 8px 20px;
   font-size: 14px;
-  border: 2px solid orange;
-  color:orange;
+  border: 2px solid white;
+  color: orange;
   font-weight: bold;
   text-align: center;
   border-radius: 3px;
   display: inline-block;
 }
 
-.btn:hover,
 header.header div.header__bar.row div.grid-6 a.post:hover {
-  border-color: #ffba39;
-  color: #ffba39;
+  color: rgba(235, 235, 235, 0.856);
 }
-
 
 header.header div.header__bar.row {
   position: relative;
@@ -121,24 +130,6 @@ header.header .user_nav {
   margin-top: 10px;
   margin-left: 30px;
   font-size: 15px;
-}
-
-
-
-.btn {
-  width: 200px;
-  padding: 20px;
-  border: 2px solid orange;
-  background-color: orange;
-  transition: 0.4s ease;
-  text-align: center;
-  color: white;
-  font-size: 15px;
-}
-
-.btn:hover {
-  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2), 0 1px 8px 0 rgba(7, 7, 7, 0.12);
-  cursor: pointer;
 }
 
 footer {
