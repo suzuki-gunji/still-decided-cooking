@@ -50,6 +50,9 @@
 }
 
 .cook-title{
+  text-align: center;
+  padding: 5px;
+  font-family: "游ゴシック", "YuGothic";
   font-size: 17px;
   color: #070501;
   background-color: #e7d5bd;
