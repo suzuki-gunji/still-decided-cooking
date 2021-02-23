@@ -65,6 +65,7 @@
   width: 100%;
   display: flex;
   border-left: none;
+  align-items: center;
 }
 
 .cooks-info + .c{
