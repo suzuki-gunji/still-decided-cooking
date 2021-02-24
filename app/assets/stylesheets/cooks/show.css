@@ -5,6 +5,7 @@
   font-style: italic;
   padding-bottom: 30px;
   border-bottom: black 1px solid;
+  font-family: "游ゴシック", "YuGothic";
 }
 
 .decided-cook{
@@ -26,23 +27,27 @@
   font-weight: bold;
   padding-right: 50px;
   color: rgb(245, 166, 20);
+  font-family: "游ゴシック", "YuGothic";
 }
 
 .decided-cook-genre{
   font-size: 23px;
   font-weight: bold;
   color: rgb(131, 131, 131);
+  font-family: "游ゴシック", "YuGothic";
 }
 
 .decided-cook-recipe{
   height: 200px;
   padding: 20px;
   margin-bottom: 30px;
+  font-family: "游ゴシック", "YuGothic";
 }
 
 .decided-cook-recipe p{
   font-weight: bold;
   font-size: 20px;
+  font-family: "游ゴシック", "YuGothic";
 }
 
 .btn-wrapper{
