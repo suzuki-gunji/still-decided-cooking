@@ -32,7 +32,7 @@
 
 .cooks-btn{
   text-align: center;
-  margin-top: 50px;
+  margin-left: 200px;
 }
 
 .cooks-btn p{
@@ -41,7 +41,7 @@
 }
 
 .right-container{
-  width: 20%;
+  width: 40%;
   margin: 0 0 0 auto;
 }
 
@@ -49,6 +49,7 @@
   font-weight: bold;
   border-top: 1px #523e3ee8 solid;
   border-left: 1px #523e3ee8 solid;
+  margin-right: 200px;
 }
 
 .cook-title{
