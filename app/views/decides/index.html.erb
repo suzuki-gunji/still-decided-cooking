@@ -1,41 +1,41 @@
 <div class="main-wrapper">
   <% if user_signed_in? %>
-    <div class = "main-container">    
-      <div class = "explain-container">
-        <h1>まだクッキンってなに？</h1>
-        <p>まだクッキンはランダムに今日の料理を決めてくれます。</p>
-        <p>さっそく料理をまだクッキンに決めてもらいましょう！</p>
-      </div>
+    <div class = "explain-container">
+      <h1>まだクッキンってなに？</h1>
+      <p>まだクッキンはランダムに今日の料理を決めてくれます。</p>
+      <p>さっそく料理をまだクッキンに決めてもらいましょう！</p>
+    </div>
 
+    <div class = "main-container">    
       <div class="cooks-btn">
         <p>今日の料理に困っているときはここ</p>
         <%= link_to '今日の料理を見てみる', new_decide_path, method: :get, class: "btn" %>
         <p>料理の幅を広くしたいときはここ</p>
         <%= link_to '料理を追加する', new_cook_path, method: :get, class: "btn" %>
       </div>
-    </div>
 
-    <div class="right-container">
-      <div class = "cooks-info">
-        <% if @cooks.present? %>
-          <h1 class = "cook-title">登録されている料理一覧</h1> 
+      <div class="right-container">
+        <div class = "cooks-info">
+          <% if @cooks.present? %>
+            <h1 class = "cook-title">登録されている料理一覧</h1> 
 
-          <% @cooks.each do |cook| %>
-            <div class = "cook-detail">
-              <p class = "cook-name">
-                料理名 : 
-                <%= cook.name %>
-              </p>  
-              <p class = "cook-genre">
-                ジャンル : 
-                <%= cook.genre.genre %>
-              </p> 
-            </div>  
+            <% @cooks.each do |cook| %>
+              <div class = "cook-detail">
+                <p class = "cook-name">
+                  料理名 : 
+                  <%= cook.name %>
+                </p>  
+                <p class = "cook-genre">
+                  ジャンル : 
+                  <%= cook.genre.genre %>
+                </p> 
+              </div>  
+            <% end %>  
+          <% else %> 
+            <h1 class = "cook-title">登録されている料理はありません</h1> 
           <% end %>  
-        <% else %> 
-          <h1 class = "cook-title">登録されている料理はありません</h1> 
-        <% end %>  
-      </div>  
+        </div>  
+      </div>
     </div>
   <% else %>
     <div class="please-regist">
