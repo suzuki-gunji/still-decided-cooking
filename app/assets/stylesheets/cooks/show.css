@@ -1,7 +1,7 @@
 .propose-cook h1{
   text-align: center;
   font-size: 40px;
-  margin: 90px 300px 0 300px;
+  margin: 90px 300px 30px 300px;
   font-style: italic;
   padding-bottom: 30px;
   border-bottom: black 1px solid;
@@ -13,6 +13,7 @@
   margin: 0 auto;
   margin-bottom: 50px;
   border: 1px solid gray;
+  border-radius: 30px;
 }
 
 .decided-cook-view{
@@ -23,9 +24,9 @@
 }
 
 .decided-cook-name{
+  padding:0 50px 0 50px;
   font-size: 40px;
   font-weight: bold;
-  padding-right: 50px;
   color: rgb(245, 166, 20);
   font-family: "游ゴシック", "YuGothic";
 }
@@ -33,7 +34,7 @@
 .decided-cook-genre{
   font-size: 23px;
   font-weight: bold;
-  color: rgb(131, 131, 131);
+  color: black;
   font-family: "游ゴシック", "YuGothic";
 }
 
