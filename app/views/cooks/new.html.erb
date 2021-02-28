@@ -18,6 +18,12 @@
         <%= f.collection_select(:genre_id, Genre.all, :id, :genre, {}, {class:"genre-select"}) %>
       </div>
 
+      <div class="cookpad-link">
+        <h1>登録する料理が浮かびませんか？</h1>
+        <p>cookpadの料理を参考にしてみましょう</p>
+        <%= link_to 'cookpad', 'https://cookpad.com/', class: :btn %>
+      </div>
+
       <div class="actions">
         <%= f.submit "保存する", class: :btn  %>
       </div>

@@ -25,6 +25,10 @@
   padding: 5px;
 }
 
+.cookpad-link h1{
+  padding-bottom: 10px;
+}
+
 .actions{
   margin: 0 auto;
   text-align: center;
