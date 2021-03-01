@@ -1,4 +1,5 @@
 class CooksController < ApplicationController
+  before_action :authenticate_user!, only: [:index, :new, :create, :show]
 
   def index
   end
