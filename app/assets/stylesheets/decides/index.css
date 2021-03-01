@@ -8,12 +8,6 @@
   width: 40%;
 }
 
-.main-container{
-  padding-top: 70px;
-  width: 100%;
-  display: flex;
-}
-
 .explain-container h1 {
   color: #444444;
   font-family: "游ゴシック", "YuGothic";
@@ -27,6 +21,12 @@
 .explain-container p{
   font-size: 17px;
   padding: 10px;
+}
+
+.main-container{
+  padding-top: 70px;
+  width: 100%;
+  display: flex;
 }
 
 .cooks-btn{
