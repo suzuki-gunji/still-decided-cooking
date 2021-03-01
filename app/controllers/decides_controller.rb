@@ -1,4 +1,5 @@
 class DecidesController < ApplicationController
+  before_action :authenticate_user!, only: [:new, :create]
 
   def index
     @cooks = Cook.order("created_at DESC")
