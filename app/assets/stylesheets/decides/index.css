@@ -79,15 +79,23 @@
   float: left;
   font-size: 12px;
   padding: 5px;
-  width: 50%;
+  width: 40%;
 }
 
 .cook-genre{
   line-height: 30px;
+  margin-left: 5px;
+  top: 25%;
+  left: 50%;
+  font-size: 10px;
+}
+
+.cook-username{
+  line-height: 30px;
   margin-left: 10px;
   top: 25%;
   left: 50%;
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .please-regist{
