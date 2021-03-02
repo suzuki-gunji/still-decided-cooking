@@ -161,7 +161,12 @@ footer {
   width: 70%;
 }
 
-.mypage-container{
+.userpage-container{
   margin-top: 100px;
+  text-align: center;
+}
+
+.userpage-container p{
+  font-size: 30px;
 }
 
