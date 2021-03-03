@@ -5,7 +5,7 @@
 
       <h1>ユーザ登録</h1>
       <div class="box-nickname">
-        <%= f.label :ニックネーム %> <em>(6文字以内)</em><br />
+        <%= f.label :ニックネーム %><br />
         <%= f.text_field :nickname %>
       </div>
 
@@ -18,9 +18,6 @@
       <div class="box-password">
         <div class="a-row">
           <%= f.label :パスワード %>
-          <% if @minimum_password_length %>
-          <em>(<%= @minimum_password_length %>文字以内)</em>
-          <% end %><br />
           <%= f.password_field :password, autocomplete: "new-password" %>
 
         <div class="box-password-conf">
