@@ -69,11 +69,9 @@
   width: 100%;
   display: flex;
   border-left: none;
+  border-top: none;
   align-items: center;
-}
 
-.cooks-info + .c{
-  border-left: none;
 }
 
 .cook-name {
