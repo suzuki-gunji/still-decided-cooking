@@ -16,6 +16,7 @@
   box-shadow: 0px 0px 0px 5px #ffc354;
   border: dashed 2px white;
   padding: 0.2em 0.5em;
+  margin-bottom: 10px;
 }
 
 .explain-container p{
