@@ -1,3 +1,20 @@
 <div class="userpage-container">
   <p><%= @nickname %>さんの料理一覧</p>
+  <% @cooks.each do |cook| %>
+    <div class = "cook-detail">
+      <p class = "cook-name">
+        料理名 : 
+        <%= cook.name %>
+      </p>  
+      <p class = "cook-genre">
+        ジャンル : 
+        <%= cook.genre.genre %>
+      </p> 
+      <p class = "cook-username">
+        ユーザー : 
+        <%= cook.user.nickname %>
+      </p> 
+    </div> 
+  <% end %>
+
 </div>
